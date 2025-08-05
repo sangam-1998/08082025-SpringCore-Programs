@@ -1,0 +1,12 @@
+package spring.core;
+
+public class SpringCoreTest {
+	
+	private String fname;
+	
+	private String lname;
+	
+	
+
+	
+}

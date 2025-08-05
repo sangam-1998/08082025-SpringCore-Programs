@@ -1,0 +1,10 @@
+package spring.core;
+
+public class Family {
+	
+	private String familyName;
+	private int memberSize;
+	private String village;
+	
+
+}
