@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<bean id="bean" class="spring.core.BeanClass">
+		<property name="ComapanyName" value="AIPL"></property>
+		<property name="Department">
+			<list>
+				<value> Dev</value>
+				<value> QA</value>
+			</list>
+		</property>
+		<property name="DevelopemetEmployee">
+			<set>
+				<value> Sangam</value>
+				<value> Vishal</value>
+			</set>
+		</property>
+		<property name="EmpIDMap">
+			<map>
+				<entry key="101" value="Vishal" />
+				<entry key="102" value="Sangam" />
+			</map>
+		</property>
+		<property name="properties">
+			<props>
+				<prop key="Sangam">
+			PM
+		</prop>
+				<prop key="Vishal">
+			PM
+		</prop>
+
+			</props>
+		</property>
+
+
+	</bean>
+
+
+</beans>

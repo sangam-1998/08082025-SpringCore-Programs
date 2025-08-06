@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="G:\New folder\SpringBoot Preparation0408205"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -43,14 +44,18 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.spring.core"/>
 			<item value="spring.core"/>
 			<item value="SpringCoreProject1"/>
 		</list>
 		<list key="name">
+			<item value="SpringCoreProject3"/>
 			<item value="SpringCoreProject2"/>
 			<item value="SpringCoreProject1"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringCoreProject3"/>
+			<item value="Spring.Core.Project3"/>
 			<item value="SpringCoreProject2"/>
 			<item value="SpringCoreProject"/>
 		</list>

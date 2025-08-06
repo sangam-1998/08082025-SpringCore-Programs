@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+<bean id="Vehicle"  class="spring.core.VehicleDetails">
+<property name="vehicleId"><value>101</value></property>
+<property name="vehicleName"><value>Suzuki</value></property>
+<property name="vehicleNumber"><value>MH2024558</value></property>
+
+
+
+</bean>
+
+
+</beans>
